@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    min-width: 360px;
+    margin: 0;
+}
+
+#pagInicial {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo img{
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    position: absolute;
+    width: auto;
+    max-height: 30%;
+    animation-duration: 0.6s;
+    opacity: 0;
+}
+
+.animarLogo img {
+    animation-fill-mode: forwards;
+    animation-name: slide;
+}
+
+.insta-button a {
+    top: 430px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 20px;
+    color: rgb(241, 241, 241);
+    background-color: rgb(212, 38, 27);
+    border: 1px solid rgb(241, 241, 241);
+    background-image: url(../images/insta.png);
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 75px;
+    animation-delay: 0.4s;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+.insta-button a:hover {
+    background-color: rgb(133, 13, 5);
+    color: #fff;
+}
+
+.whats-button a {
+    top: 430px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 20px;
+    color: rgb(241, 241, 241);
+    background-color: rgb(22, 82, 46);
+    border: 1px solid rgb(241, 241, 241);
+    background-image: url(../images/whats.png);
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 75px;
+    animation-delay: 0.7s;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+.whats-button a:hover {
+    background-color: rgb(2, 39, 17);
+    color: #fff;
+}
+
+.dino-button a {
+    top: 430px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 20px;
+    color: rgb(149, 24, 28);
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(149, 24, 28);
+    background-image: url(../images/dino.png);
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 75px;
+    animation-delay: 1s;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+.dino-button a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(149, 24, 28);
+}
+
+.forms-button a {
+    top: 430px;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 0, 63);
+    border: 1px solid rgb(206, 171, 252);
+    background-image: url(../images/forms.png);
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 75px;
+    animation-delay: 1.3s;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+.forms-button a:hover {
+    background-color: rgb(92, 32, 172);
+    color: rgb(255, 255, 255);
+}
+
+.animar a {
+    animation-fill-mode: forwards;
+    animation-name: slide;
+}
+
+@media screen and (max-width:600px){
+    .logo img{
+        height: 18%;
+        top: 17%;
+    }
+    .insta-button a{
+        top: 275px;
+    }
+    .whats-button a{
+        top: 275px;
+    }
+    .dino-button a{
+        top: 275px;
+    }
+    .forms-button a{
+        top: 275px;
+    }
+    
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, -90px);
+        opacity: 1;
+    }
+}
