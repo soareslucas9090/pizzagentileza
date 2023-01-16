@@ -299,6 +299,25 @@ body {
 
 }
 
+@media screen and (width:428px) {
+    .insta-button{
+        transform: translate(-50%, 0);
+    }
+    .dino-button a {
+        font-size: 24px;
+        letter-spacing: 1px;
+        background-size: 24px;
+        width: 222px;
+    }
+
+    .whats-button a {
+        font-size: 24px;
+        letter-spacing: 0.7px;  
+        background-size: 24px;
+        width: 224px;
+    }
+}
+
 @media screen and (max-width:385px) {
     .insta-button{
         transform: translate(-37.5%, 0);
@@ -317,6 +336,8 @@ body {
         width: 216px;
     }
 }
+
+
 
 
 
