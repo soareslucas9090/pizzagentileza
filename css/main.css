@@ -318,6 +318,73 @@ body {
     }
 }
 
+@media screen and (max-height:680px) {
+
+    .logo img {
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        display: flex;
+        position: absolute;
+        width: auto;
+        max-height: 20%;
+        animation-duration: 0.6s;
+        opacity: 0;
+    }
+    
+
+    .insta-button{
+        transform: translate(-50%, 0);
+        width: 204px;
+        height: 126px;
+    }
+
+    .insta-button a {
+        font-size: 18px;
+        letter-spacing: 1.2px;
+        background-size: 180px;
+        width: 300px;
+        height: 180px;
+    }
+
+    .dino-button a {
+        font-size: 30px;
+        letter-spacing: 1px;
+        background-size: 24px;
+        width: 222px;
+    }
+
+    .whats-button a {
+        font-size: 30px;
+        letter-spacing: 0.7px;  
+        background-size: 24px;
+        width: 224px;
+    }
+
+    .text{
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 32px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        transition: all .3s;
+        display: flex;
+        position: absolute;
+        overflow: hidden;
+        animation-delay: 0.4s;
+        animation-duration: 0.5s;
+        opacity: 0;
+    }
+    
+    .lin1{
+        top: 67%;
+    }
+    
+    .lin2{
+        top: 72%;
+    }
+}
+
 @media screen and (max-width:385px) {
     .insta-button{
         transform: translate(-37.5%, 0);
