@@ -341,7 +341,7 @@ body {
     }
 
     .text p{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .lin1{
@@ -364,7 +364,7 @@ body {
     }
     
     .footer #imgLogotipo{
-        transform: translate(-60%, 0);
+        transform: translate(-50%, 0);
         background-image: url(../images/logotiporeduzido.png);
         background-size: 70px;
         width:70px;
@@ -389,7 +389,7 @@ body {
         transform: translate(-30%, 0);
         background-color: transparent;
         background-image: url(../images/mailto.png);
-        background-size: 22px;
+        background-size: 20px;
         background-repeat: no-repeat;
         background-position: center 0px;
         margin-left: 6px;
@@ -402,9 +402,9 @@ body {
 
 }
 
-@media screen and (width:428px) {
+@media screen and (max-width:428px) {
     .insta-button{
-        transform: translate(-50%, 0);
+        transform: translate(-37.5%, 0);
     }
     .dino-button a {
         font-size: 24px;
@@ -420,8 +420,8 @@ body {
         width: 224px;
     }
 
-    .text p{
-        font-size: 35px;
+    .textPrincipal p{
+        font-size: 30px;
     }
     
 }
@@ -444,11 +444,37 @@ body {
         width: 216px;
     }
 
-    .text p{
-        font-size: 35px;
+    .textPrincipal p{
+        font-size: 30px;
     }
+
+    .footer #imgLogotipo{
+        transform: translate(-20%, 0);
+    }
+    
 }
 
+@media screen and (max-width:370px) {
+
+    .textPrincipal p{
+        font-size: 25px;
+    }
+
+    .footer #trabalheConosco{
+        background-size: 20px;
+        padding-top: 18px;
+        font-size: 17px;
+        height: 30px;
+    }
+    
+    .footer #mailto{
+        background-size: 20px;
+        padding-top: 18px;
+        font-size: 17px;
+        height: 30px;
+    }
+    
+}
 
 @media screen and (max-height:680px) {
 
