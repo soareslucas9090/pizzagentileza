@@ -195,15 +195,18 @@ body {
 }
 
 .footer #imgLogotipo{
-    transform: translate(19%, 0);
-    height: 50px;
-    width: auto;
-    margin-top: 10px;
+    transform: translate(17%, 0);
+    background-color: transparent;
+    background-image: url(../images/logotipo.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 150px;
     margin-right: 15px;
 }
 
 .footer #trabalheConosco{
-    transform: translate(19%, 0);
+    transform: translate(17%, 0);
     background-color: transparent;
     background-image: url(../images/trabalheconosco.png);
     background-size: 37px;
@@ -219,7 +222,7 @@ body {
 }
 
 .footer #mailto{
-    transform: translate(19%, 0);
+    transform: translate(17%, 0);
     background-color: transparent;
     background-image: url(../images/mailto.png);
     background-size: 37px;
@@ -361,31 +364,29 @@ body {
     }
     
     .footer #imgLogotipo{
-        transform: translate(15%, 0);
-        height: 35px;
-        width: auto;
-        margin-top: 3px;
-        margin-right: 6px;
+        transform: translate(-100%, 0);
+        background-image: url(../images/logotiporeduzido.png);
+        background-size: 70px;
+        width:70px;
+        margin-bottom: 5px;
     }
     
     .footer #trabalheConosco{
-        transform: translate(15%, 0);
+        transform: translate(-45%, 0);
         background-color: transparent;
         background-image: url(../images/trabalheconosco.png);
         background-size: 20px;
         background-repeat: no-repeat;
         background-position: center 0px;
-        margin-right: 6px;
-        margin-left: 6px;
         padding-top: 18px;
-        font-size: 20px;
+        font-size: 19px;
         text-decoration: none;  
         color: #ffffff;
         height: 30px;
     }
     
     .footer #mailto{
-        transform: translate(15%, 0);
+        transform: translate(-30%, 0);
         background-color: transparent;
         background-image: url(../images/mailto.png);
         background-size: 22px;
@@ -393,7 +394,7 @@ body {
         background-position: center 0px;
         margin-left: 6px;
         padding-top: 18px;
-        font-size: 20px;
+        font-size: 19px;
         text-decoration: none;  
         color: #ffffff;
         height: 30px;
@@ -524,9 +525,8 @@ body {
     
     .footer #imgLogotipo{
         transform: translate(15%, 0);
-        height: 40px;
-        width: auto;
-        margin-top: 5px;
+        background-size: 120px;
+        width: 120px;
         margin-right: 10px;
     }
     
@@ -566,6 +566,10 @@ body {
 
 @media screen and (max-height:680px) and (max-width:620px){
 
+    .logo img{
+        top:30%;
+    }
+
     .text{
         font-size: 30px;
     }
@@ -583,31 +587,29 @@ body {
     }
     
     .footer #imgLogotipo{
-        transform: translate(15%, 0);
-        height: 35px;
-        width: auto;
-        margin-top: 3px;
-        margin-right: 6px;
+        transform: translate(-100%, 0);
+        background-image: url(../images/logotiporeduzido.png);
+        background-size: 70px;
+        width:70px;
+        margin-bottom: 5px;
     }
     
     .footer #trabalheConosco{
-        transform: translate(15%, 0);
+        transform: translate(-45%, 0);
         background-color: transparent;
         background-image: url(../images/trabalheconosco.png);
         background-size: 20px;
         background-repeat: no-repeat;
         background-position: center 0px;
-        margin-right: 6px;
-        margin-left: 6px;
         padding-top: 18px;
-        font-size: 20px;
+        font-size: 19px;
         text-decoration: none;  
         color: #ffffff;
         height: 30px;
     }
     
     .footer #mailto{
-        transform: translate(15%, 0);
+        transform: translate(-30%, 0);
         background-color: transparent;
         background-image: url(../images/mailto.png);
         background-size: 22px;
@@ -615,12 +617,11 @@ body {
         background-position: center 0px;
         margin-left: 6px;
         padding-top: 18px;
-        font-size: 20px;
+        font-size: 19px;
         text-decoration: none;  
         color: #ffffff;
         height: 30px;
     }
-
 
 }
 
