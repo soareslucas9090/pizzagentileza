@@ -364,7 +364,7 @@ body {
     }
     
     .footer #imgLogotipo{
-        transform: translate(-85%, 0);
+        transform: translate(-60%, 0);
         background-image: url(../images/logotiporeduzido.png);
         background-size: 70px;
         width:70px;
